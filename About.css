@@ -1,0 +1,144 @@
+@font-face{
+	font-family:'league_gothic';
+	src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype');
+
+	/*src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.eot');
+	src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype')
+		url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.woff') format('woff')
+		url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype')
+		url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.svg') format('svg'); */
+	font-weight: normal;
+	font-style: normal;
+	})
+
+body {margin:0; font-family: 'league_gothic', sans-serif;}
+
+h1{
+	position: relative;
+	justify-content: : center;
+	left: 40%;
+}
+
+/*navbar on the bottom */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+.name_nav{
+	text-align: right;
+	position: relative;
+	color:black;
+	overflow: hidden;
+	padding-right: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+ .about{
+ 	text-decoration: underline;
+ 	color: black;
+ }
+
+body{
+	margin:0;
+	}
+ a{
+  	color: gray;
+  	text-align: center;
+  	font-size:25px;
+  	font-family: 'league_gothic', cursive;
+  	text-decoration: none;
+ }
+
+ h2{
+	position: relative;
+ 	font-size: 100px;
+ 	margin: 100 0 50px 5px;
+ 	font-family: 'league_gothic', sans-serif;
+ 	padding-left: 50px; 
+ }
+
+p{
+	position: absolute;
+	text-align: left;
+	padding-left: 20;
+	padding-bottom: 100px;
+	margin:0 20 0 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+}
+
+/*heading stuff*/
+.main{
+	margin-top: 30px;
+}
+
+/*pic and name on the right */
+.container{
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+figcaption{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: bold;
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+.img-responsive{
+	max-width: 100%
+	height: auto;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*linkedin button*/
+.fa {
+  padding: 15px;
+ border-radius:25px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  display: inline-block;
+ margin-left: 150px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+
+

@@ -1,0 +1,32 @@
+@font-face{
+	font-family:'league_gothic';
+	src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype');
+
+	/*src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.eot');
+	src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype')
+		url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.woff') format('woff')
+		url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype')
+		url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.svg') format('svg'); */
+	font-weight: normal;
+	font-style: normal;
+	})
+
+body {
+	margin:0; 
+	font-family: 'league_gothic', cursive;
+	background-image: url("Images/DSC_2056-Edit.jpg");
+	}
+
+h1{
+	position: relative;
+	justify-content: : center;
+	left: 40%;
+}
+.full {
+    background: url('Images/DSC_2056-Edit.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:100%;
+}

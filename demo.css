@@ -1,0 +1,33 @@
+
+body {
+
+	font-size: 14px;
+}
+
+#container {
+	width: 100%;
+}
+
+#left-section {
+	height: 300px;
+	width: 80%;
+	background-color: red;
+	float: left;
+
+}
+
+#right-section {
+	height: 300px;
+	width: 20%;
+	background-color: blue;
+	float: right;
+}
+
+#photo {
+	height: auto;
+	width: 80%;
+	float: right;
+	padding-right: 5%;
+	padding-top: 5%;
+
+}

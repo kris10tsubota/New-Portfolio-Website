@@ -1,0 +1,115 @@
+@font-face{
+  font-family:'league_gothic';
+  src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype');
+
+  /*src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.eot');
+  src: url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype')
+    url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.woff') format('woff')
+    url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.ttf') format('truetype')
+    url('League_Gothic_Font/webfonts/leaguegothic-regular-webfont.svg') format('svg'); */
+  font-weight: normal;
+  font-style: normal;
+  })
+
+body {margin:0; font-family: 'league_gothic', sans-serif;}
+
+h1{
+  position: relative;
+  justify-content: : center;
+  left: 40%;
+}
+
+/*navbar on the bottom */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+.name_nav{
+  text-align: right;
+  position: relative;
+  color:black;
+  overflow: hidden;
+  padding-right: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+ .about{
+  text-decoration: underline;
+  color: black;
+ }
+
+body{
+  margin:0;
+  font-family:'league_gothic', sans-serif;;
+  }
+ a{
+    color: gray;
+    text-align: center;
+    font-size:25px;
+    font-family: 'league_gothic', cursive;
+    text-decoration: none;
+ }
+
+ h2{
+  position: relative;
+  font-size: 100px;
+  font-family: 'league_gothic', sans-serif;
+ Aq
+ }
+
+/* FORM*/
+ form{
+ 	font-size: 25px;
+ 	padding-bottom: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;;
+ }
+ input[type=text]{
+ 	font-size: 15px;
+ 	padding: 12px 20px;
+ 	border: none;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+    width: 30%;
+ }
+ .comment [type=text]{
+ 	width: 90%;
+ }
+ input[type=text]:focus {
+    border: 3px solid #555;
+}
+input[type=button], input[type=submit]{
+	background-color: black;
+    border: none;
+    color: white;
+    padding: 2px 25px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'league_gothic', cursive;
+    font-size: 25px;
+}
+.btn:hover {
+    opacity: 0.7;
+}
