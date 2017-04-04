@@ -23,10 +23,15 @@ h1{
 	left: 40%;
 }
 .full {
-    background: url('Images/DSC_2056-Edit.jpg') no-repeat center center fixed;
+    background: url('treelogobackground.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     height:100%;
+}
+#logo{
+	max-width: 50%;
+	height: auto;
+	border-radius: 50px
 }
